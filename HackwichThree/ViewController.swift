@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var blueLabel: UILabel!
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
@@ -34,10 +35,32 @@ class ViewController: UIViewController {
         {
             self.view.backgroundColor = UIColor.blue}
             self.blueLabel.text = "blue"
-        }
-    
     }
-    
-    
 
-
+        class viewController: UIViewController {
+            // Decalre Variables Here
+            @IBOutlet var Green: [UILabel]!
+            
+            
+            func overide(); override:;
+            
+            override func viewDidLoad()
+            {
+                super.viewDidLoad()
+                // do any addtional setup after loading view
+                
+            }
+            
+            var backgroundString = "The background will turn red"
+            func VarforegroundString; = "The background color will turn green"
+            
+            @IBAction func changedButtonPressed(_ sender: Any) {
+            }
+            {
+            if self.backgroundColor = UIColor.green
+            self.GreenLabel.text = "green"
+            }
+            print ("I completed both problems")
+            }
+            
+}
